@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'kanji';
+    src: url('Extra\ Beige.otf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ; 
+};
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color:  #89cad9;
+}
+
+#logo{
+    width: 300px;
+    height: 150px;
+    margin-left: 30px;
+}
+h1{
+    font-size: 55px;
+    font-family: 'kanji';
+    padding: 10px;
+    width: 500px;
+    position: relative;
+    top: 10px;
+    left: 730px;
+    /* background-color: blue; */
+}
+
+.descricao p{
+    margin: 10px;
+    padding: 10px;
+    
+    font-size: 20px;
+    width: 500px;
+    height: 150px;
+    position: relative;
+    top: 15px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.descricao img{
+    margin: 0;
+    position: relative;
+    bottom: 270px;
+    width: 600px;
+}
+.finn-descricao img{
+    margin-left: 10px;
+    margin: 10px;
+    position:fixed
+    bottom: 200px;
+    width: 300px;
+    height: 350px;
+}
+.finn-descricao p{
+    margin: 10px;
+    padding: 25px;
+    background-color: #d6ee93 ;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 30px;
+    height: 280px;
+    position: relative;
+    bottom: 350px;
+    left: 340px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.finn-descricao{
+    position: relative;
+    margin: 20px;
+    background-color: #dff2f2 ;
+    bottom: 150px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+}
